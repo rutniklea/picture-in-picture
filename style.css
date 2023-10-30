@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&family=Lobster+Two&family=Oswald:wght@300&family=Yuji+Boku&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #918e8a;
+}
+
+.button-container {
+  width: 180px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  width: 120px;
+  height: 75px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Bebas Neue', sans-serif;
+
+}
+
+button:hover {
+  box-shadow: 0 0 20px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+  background-color: aqua;
+}
+
+button:active {
+  transform: translateY(5px);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
